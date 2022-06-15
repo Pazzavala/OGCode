@@ -1,0 +1,311 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue May 31 14:24:26 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile (from 'makefile', line 4)
+OBJ = 
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/Maria Zavala/Desktop/OGCode/C code
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'makefile', line 3)
+CFLAGS = -o
+# environment
+ONEDRIVE = C:\Users\Maria Zavala\OneDrive - MNSCU
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefi 
+le
+# environment
+TMP = C:\Users\MARIAZ~1\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-96b3737b-6ce2-42c1-811a-dcc71ff11c03-sock
+# environment
+VSCODE_CWD = C:\Users\Maria Zavala\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Users\Maria Zavala\AppData\Local\Microsoft\WindowsApps;C:\Users\Maria Zavala\AppData\Local\GitHubDesktop\bin;C:\Users\Maria Zavala\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Maria Zavala\.dotnet\tools;C:\MinGW\bin;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\Maria Zavala
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2380_VBHRIRUHCHRDBJWA
+# makefile (from 'makefile', line 2)
+OPT = -o2
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = PAZZY_LAPTOP
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = Maria Zavala
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Maria Zavala\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\PAZZY_LAPTOP
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = Pazzy_Laptop
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'makefile', line 1)
+CC = gcc
+# environment
+ONEDRIVECOMMERCIAL = C:\Users\Maria Zavala\OneDrive - MNSCU
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := all
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\Maria Zavala\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\3e6d576f4ce85b0d21ca23ea37850925-1.67.2-main-sock
+# environment
+HOMEPATH = \Users\Maria Zavala
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\Maria Zavala\AppData\Roaming
+# environment
+TEMP = C:\Users\MARIAZ~1\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 9e09
+# default
+.INCLUDE_DIRS = C:/MinGW/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 2380
+# environment
+USERDOMAIN_ROAMINGPROFILE = Pazzy_Laptop
+# variable set hash-table stats:
+# Load=94/1024=9%, Rehash=0, Collisions=12/118=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Users\Maria Zavala\AppData\Local\GitHubDesktop\bin (key C:/Users/Maria Zavala/AppData/Local/GitHubDesktop/bin, mtime 16 
+47375765): 4 files, no impossibilities.
+# C:\Users\Maria Zavala\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Maria Zavala/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1652898140): 4 files, no impossibilities.
+# C:\Users\Maria Zavala\.dotnet\tools: could not be stat'd.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1647539104): 30 files, no impossibilities.
+# . (key c:/Users/Maria Zavala/Desktop/OGCode/C code, mtime 1654025058): 21 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1652899119): 8 files, no impossibilities.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1654024681): 59 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files/Intel/Intel(R) Management Engine Components/DAL, mtime 1647379442): 4 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1652818011): 117 files, no impossibilities.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1652817941): 154 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1649053333): 12 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1653969355): 2938 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL, mtime 1647379454): 10 files, no impossibilities.
+# C:\Users\Maria Zavala\AppData\Local\Microsoft\WindowsApps (key C:/Users/Maria Zavala/AppData/Local/Microsoft/WindowsApps, mtime 1653592440): 19 files, no impossibilities.
+
+# 3380 files, no impossibilities in 15 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: BubbleSort.c
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# auto 
+matic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := BubbleSort.c
+# automatic
+# | := 
+# automatic
+# < := BubbleSort.c
+# automatic
+# ^ := BubbleSort.c
+# automatic
+# ? := BubbleSort.c
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/13=8%
+#  recipe to execute (from 'makefile', line 6):
+	$(CC) $(CFLAGS) BubbleSort BubbleSort.c
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-31 13:52:19
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+BubbleSort.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-31 13:37:04
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/18=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 7 (6) / strings = 3358 / storage = 50584 B / avg = 15 B
+# current buf: size = 8174 B / used = 1583 B / count = 93 / avg = 17 B
+# other used: total = 42410 B / count = 3265 / avg = 12 B
+# other free: total = 43 B / max = 12 B / min = 1 B / avg = 7 B
+
+# strcache performance: lookups = 3405 / hit rate = 1%
+# hash-table stats:
+# Load=3358/8192=41%, Rehash=0, Collisions=1072/3405=31%
+# Fini 
+shed Make data base on Tue May 31 14:24:26 2022
+
+ 

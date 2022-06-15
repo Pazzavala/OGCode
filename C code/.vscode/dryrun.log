@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'c:/Users/Maria Zavala/Desktop/OGCode/C code'
+ 
+gcc -o BubbleSort BubbleSort.c
+make.exe: Leaving directory 'c:/Users/Maria Zavala/Desktop/OGCode/C code'
+ 
