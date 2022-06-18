@@ -2,7 +2,7 @@
 import java.util.LinkedList;
 import java.util.Iterator;
 
-public class Queue implements Iterable <T> {
+public class Queue <T> implements Iterable <T> {
 
 	private LinkedList <T> list = new LinkedList <T> ();
 
