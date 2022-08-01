@@ -60,7 +60,7 @@ public class DoublyLinkedList <T> implements Iterable <T> {
 			head = head.prev;
 		}
 
-		size++
+		size++;
 	}
 
 	public void addLast(T elem) {
@@ -71,7 +71,7 @@ public class DoublyLinkedList <T> implements Iterable <T> {
 			tail = tail.next;
 		}
 
-		size++
+		size++;
 	}
 
 	public void add(T elem) {

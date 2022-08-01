@@ -30,8 +30,8 @@ public class DynamicArray <T> implements Iterable<T> {
 		return arr[index];
 	}
 	// function to set a value at a certain index
-	public void set(int index, T value) {
-		arr[index] = value;
+	public void set(int index, T elem) {
+		arr[index] = elem;
 	}
 	// function to clear the array
 	public void clear() {
@@ -39,7 +39,7 @@ public class DynamicArray <T> implements Iterable<T> {
 			arr[i] = null;
 	}
 	// function to add an element to array
-	public void add(T value) {
+	public void add(T elem) {
 		if (len+1 >= capacity) {
 			if (capacity == 0)
 				capacity = 1;
@@ -53,14 +53,16 @@ public class DynamicArray <T> implements Iterable<T> {
 			arr = new_arr;
 		}
 
-		arr[len++] = value;
+		arr[len++] = elem;
 	}
 	// function to remove an element at a certain index
 	public T removeAt(int index) {
-		
+
 	}
 	// function to remove element if found return if found
-
+	public boolean remove(T elem) {
+		
+	}
 	// function to find index of specified element
 
 	// function to see if array contains element
